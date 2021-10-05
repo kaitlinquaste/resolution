@@ -1,0 +1,98 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: kaitlin Quaste
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+img{;
+     align: center;
+     max-width: 400px;
+}
+
+.gray{color: gray; font-size: 12px}
+.black{color: black; font-size: 12px;}
+.rounded{border-radius: 50%;}
+
+a{
+color: red;
+text-decoration: none;
+}
+
+h1{
+     letter-spacing: -2.5px;
+}
+
+h2{
+padding-top: 10px;
+}
+
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+#header{
+     line-height: 5px;
+     padding-bottom: 15px;
+}
+
+#main{
+     background: white;
+     width: 500px;
+     float: left;
+     padding: 5px 50px 30px 50px;
+     align: center;
+     line-height: 15px;
+
+}
+
+#sidebar{
+     background: white;
+     width:300px ;
+     float: left;
+     padding: 30px;
+     margin: 0 0 0 5px;
+     border-width: 0 0 2px 2px;
+     border-color: darkgray;
+     border-style: solid;
+
+}
+
+blockquote{
+     font-size: 12px;
+     font-style: italic;
+     border-left: 3px solid #ccc;
+     border-color: darkgray;
+     padding: 0 0 0 5px;
+     letter-spacing: .03px;
+}
+
+
+body {
+ background: url('../images/notebook.png');/* add a fallback color of #d6d6d6 */
+ background-color:#d6d6d6;
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+ width: 1000px;
+margin: 0 auto 0 auto;
+padding: 50px;
+}  
